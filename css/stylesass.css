@@ -86,7 +86,6 @@ a p {
   }
 }
 header.fondoDestacado {
-  background-color: rgb(191, 191, 191);
   background-image: url(../../assets/img/wave.png);
 }
 header.fondoDestacado .btn {
