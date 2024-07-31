@@ -17,15 +17,19 @@
   box-sizing: border-box;
 }
 
-h3 {
+h2 {
   color: brown;
   font-size: 25px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-left: 10px;
 }
 
-h4 {
+h3 {
   color: black;
+}
+
+h4 {
+  font: 20px, bold, black;
 }
 
 /* listas dentro del body sin estilo */
@@ -87,6 +91,9 @@ a p {
 }
 header.fondoDestacado {
   background-image: url(../../assets/img/wave.png);
+}
+header.fondoDestacado h2 {
+  color: black;
 }
 header.fondoDestacado .btn {
   border-color: black;
@@ -215,6 +222,21 @@ main section p.textoEncuentran {
   text-align: justify;
 }
 
+nav.footerFondo {
+  background-color: rgb(116, 116, 116);
+}
+nav.footerFondo a:hover {
+  font-weight: 700;
+}
+nav.footerFondo .redesIcon {
+  height: 40px;
+  width: 40px;
+}
+nav.footerFondo .goTop {
+  text-decoration: none;
+  text-align: end;
+}
+
 /* media queries */
 .formDesktop {
   display: none;
@@ -232,20 +254,6 @@ main section p.textoEncuentran {
     height: auto;
     width: auto;
   }
-}
-nav.footerFondo {
-  background-color: rgb(116, 116, 116);
-}
-nav.footerFondo a:hover {
-  font-weight: 700;
-}
-nav.footerFondo .redesIcon {
-  height: 40px;
-  width: 40px;
-}
-nav.footerFondo .goTop {
-  text-decoration: none;
-  text-align: end;
 }
 
 /*# sourceMappingURL=stylesass.css.map */

@@ -6,15 +6,21 @@
     box-sizing: border-box;
 }
 
-h3 {
+// categorias del main
+h2 { 
     color: brown;
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 10px;
 }
-
-h4 {
+// nombre de productos
+h3 {
     color: $black;
+}
+
+// usado en el footer en primera instancia
+h4 {
+    font: 20px, bold, $black;
 }
 
 /* listas dentro del body sin estilo */
